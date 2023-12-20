@@ -1,7 +1,7 @@
 import React from "react"
 import AOS from "aos"
 import { Link } from "gatsby"
-import bannerImg from "../../images/banner-img1.png"
+import bannerImg from "../../images/banner-img1_2.png"
 
 const Banner = () => {
   React.useEffect(() => {
@@ -20,7 +20,7 @@ const Banner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  Secure IT Solutions Services
+                  Tech2Flow
                 </h1>
 
                 <p
@@ -28,8 +28,15 @@ const Banner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Our name might be new to you, but as individuals we have been around for more
+                  than decade, empowering businesses to fulfill their digital potential.<br />
+                </p>
+                <p
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  data-aos-delay="200"
+                >
+                  Wherever we go the tech flows.
                 </p>
 
                 <div

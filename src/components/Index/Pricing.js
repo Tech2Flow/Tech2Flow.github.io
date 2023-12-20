@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import starIcon from "../../images/star-icon.png"
+import starIcon from "../../images/star-icon_.png"
 
 const Pricing = () => {
   return (
