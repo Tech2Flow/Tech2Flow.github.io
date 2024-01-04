@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="footer-area bg-color">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-sm-6">
+          <div className="col-lg-6 col-sm-12">
             <div className="single-footer-widget">
               <Link to="/" className="logo">
                 <img src={logo} alt="logo" />
