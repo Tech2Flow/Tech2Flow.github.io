@@ -1625,6 +1625,9 @@ Solutions Area CSS
   border: 1px solid #f5f3f2;
   text-align: center;
 }
+.single-solutions-box p {
+  font-size: 15px;
+}
 .single-solutions-box .icon {
   margin-bottom: 25px;
   line-height: 1;
@@ -1632,7 +1635,7 @@ Solutions Area CSS
 }
 .single-solutions-box h3 {
   margin-bottom: 12px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .single-solutions-box h3 a {
   display: inline-block;
@@ -9506,6 +9509,9 @@ Footer Area CSS
   margin-bottom: 15px;
   font-size: 15px;
   display: inline-block;
+}
+.single-footer-widget .logo img {
+  max-width: 80%;
 }
 .single-footer-widget .social-link {
   padding-left: 0;

@@ -7,133 +7,78 @@ const ServicesOne = () => {
       <section className="solutions-area pt-100 pb-70">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-solutions-box">
                 <div className="icon">
                   <i className="flaticon-rocket"></i>
                 </div>
                 <h3>
-                  <Link to="/services/service-details">Startup Applications</Link>
+                  <Link to=">">Cutting-Edge Expertise</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  adipiscing aliqua.
+                  We stay at the forefront of technological advancements, ensuring that our
+                  solutions are always up-to-date and aligned with the latest trends. Our team is
+                  well-versed in a wide range of technologies, from cloud computing and cybersecurity
+                  to mobile development and artificial intelligence.
                 </p>
-
-                <Link className="view-details-btn" to="/services/service-details">
-                  View Details
-                </Link>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-solutions-box">
                 <div className="icon">
                   <i className="flaticon-laptop"></i>
                 </div>
 
                 <h3>
-                  <Link to="/services/service-details">SaaS Solutions</Link>
+                  <Link to="#">Tailored <br />Solutions</Link>
                 </h3>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  adipiscing aliqua.
+                  We don't believe in one-size-fits-all solutions. Each business has its own unique
+                  challenges and aspirations, and we take the time to understand your specific needs
+                  before designing a personalised solution. We work closely with you to ensure that our
+                  solutions are aligned with your long-term goals and business objectives.
                 </p>
-
-                <Link className="view-details-btn" to="/services/service-details">
-                  View Details
-                </Link>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-solutions-box">
                 <div className="icon">
                   <i className="flaticon-money"></i>
                 </div>
 
                 <h3>
-                  <Link to="/services/service-details">eCommerce Platforms</Link>
+                  <Link to="#">Responsive and Dedicated Support</Link>
                 </h3>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  adipiscing aliqua.
+                  We're committed to providing exceptional customer support, and are always available to assist
+                  you with any questions or issues you may encounter. Our team is responsive and
+                  proactive, ensuring that you have the support you need to get the most out of our
+                  solutions.
                 </p>
-
-                <Link className="view-details-btn" to="/services/service-details">
-                  View Details
-                </Link>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-solutions-box">
                 <div className="icon">
-                  <i className="flaticon-segmentation"></i>
+                  <i className="flaticon-money"></i>
                 </div>
 
                 <h3>
-                  <Link to="/services/service-details">Research</Link>
+                  <Link to="#">Affordable and Value-Driven Solutions</Link>
                 </h3>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  adipiscing aliqua.
+                  We understand that businesses have varying budgets. That's why we offer a range of
+                  affordable solutions that are tailored to your specific needs and requirements.
+                  We believe in providing value for your investment and delivering solutions that drive
+                  real business outcomes.
                 </p>
 
-                <Link className="view-details-btn" to="/services/service-details">
-                  View Details
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-solutions-box">
-                <div className="icon">
-                  <i className="flaticon-analytics"></i>
-                </div>
-
-                <h3>
-                  <Link to="/services/service-details">Analytics</Link>
-                </h3>
-
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  adipiscing aliqua.
-                </p>
-
-                <Link className="view-details-btn" to="/services/service-details">
-                  View Details
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-solutions-box">
-                <div className="icon">
-                  <i className="flaticon-settings"></i>
-                </div>
-
-                <h3>
-                  <Link to="/services/service-details">Technology</Link>
-                </h3>
-
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  adipiscing aliqua.
-                </p>
-
-                <Link className="view-details-btn" to="/services/service-details">
-                  View Details
-                </Link>
               </div>
             </div>
           </div>

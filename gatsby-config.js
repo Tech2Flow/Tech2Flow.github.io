@@ -9,10 +9,19 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Tech2Flow - Gatsby React IT Startup & Technology Template`,
-    description: `Gatsby React IT Startup & Technology Template`,
+    title: `Tech2Flow`,
+    description: `Wherever we go the tech flows.`,
     author: `@envytheme`,
-    siteUrl: `https://rewy-gatsby.envytheme.com`,
+    siteUrl: `https://tech2flow.com`,
+    siteEmail: `hello@tech2flow.com`,
+    address: `1137 Budapest, Szent István körút 22.`,
+    country: `Hungary`,
+    phoneNumber: `(+36) 20 - 399 - 8867`,
+    social: {
+      facebook: `tech2flow`,
+      twitter: `tech2flow`,
+      linkedin: `tech2flow`,
+    },
   },
   plugins: [
     'gatsby-plugin-image',

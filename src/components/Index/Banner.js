@@ -28,8 +28,7 @@ const Banner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  Our name might be new to you, but as individuals we have been around for more
-                  than decade, empowering businesses to fulfill their digital potential.<br />
+                  Our name might be new to you, but as individuals, we have been around for more than a decade, empowering businesses to fulfil their digital potential.
                 </p>
                 <p
                   data-aos="fade-right"

@@ -1,66 +1,56 @@
 import React from "react"
 import { Link } from "gatsby"
-import logo from "../../images/logo.png"
+import logo from "../../images/tech2flow_logo.svg"
 import footerMap from "../../images/footer-map.png"
+import { useSiteMetadata } from "../../hooks/use-site-metadata"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
+  const { title, description, siteEmail, address, country, phoneNumber, social } = useSiteMetadata()
 
   return (
     <footer className="footer-area bg-color">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-sm-6">
+          <div className="col-lg-6 col-sm-6">
             <div className="single-footer-widget">
               <Link to="/" className="logo">
                 <img src={logo} alt="logo" />
               </Link>
               <p>
-                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-                suspendisse.
+                {description}
               </p>
 
               <ul className="social-link">
                 <li>
-                  <a
-                    href="https://www.facebook.com/"
+                  <Link
+                    to={`https://www.facebook.com/` + social?.facebook}
                     className="d-block"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <i className="bx bxl-facebook"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://twitter.com/"
+                  <Link
+                    to={`https://www.twitter.com/` + social?.twitter}
                     className="d-block"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <i className="bx bxl-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="d-block"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="bx bxl-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/"
+                  <Link
+                    to={`https://www.linkedin.com/` + social?.linkedin}
                     className="d-block"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <i className="bx bxl-linkedin"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -75,40 +65,7 @@ const Footer = () => {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/about-us">About</Link>
-                </li>
-                <li>
-                  <Link to="/case-studies">Case Studies</Link>
-                </li>
-                <li>
-                  <Link to="/blog">Our Blog</Link>
-                </li>
-                <li>
                   <Link to="/contact">Contact</Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="col-lg-2 col-sm-6">
-            <div className="single-footer-widget">
-              <h3>Resources</h3>
-
-              <ul className="footer-links-list">
-                <li>
-                  <Link to="/team">Our Scientists</Link>
-                </li>
-                <li>
-                  <Link to="/services">Our Services</Link>
-                </li>
-                <li>
-                  <Link to="/testimonials">Testimonials</Link>
-                </li>
-                <li>
-                  <Link to="/services">SaaS Solutions</Link>
-                </li>
-                <li>
-                  <Link to="/case-studies">Case Studies</Link>
                 </li>
               </ul>
             </div>
@@ -121,19 +78,15 @@ const Footer = () => {
               <ul className="footer-contact-info">
                 <li>
                   <i className="bx bx-map"></i>
-                  175 5th Ave, New York, NY 10010, <br /> United States
+                  {address}, <br /> {country}
                 </li>
                 <li>
                   <i className="bx bx-phone-call"></i>
-                  <a href="tel:11234567890">+1 (123) 456 7890</a>
+                  {phoneNumber}
                 </li>
                 <li>
                   <i className="bx bx-envelope"></i>
-                  <a href="mailto:hello@rewy.com">hello@rewy.com</a>
-                </li>
-                <li>
-                  <i className="bx bxs-inbox"></i>
-                  <a href="tel:+557854578964">+55 785 4578964</a>
+                  <Link to={`mailto:` + siteEmail}>{siteEmail}</Link>
                 </li>
               </ul>
             </div>
@@ -142,29 +95,18 @@ const Footer = () => {
 
         <div className="footer-bottom-area">
           <div className="row align-items-center">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-12 col-md-12">
               <p>
-                Copyright @{currentYear} <strong>Rewy</strong> All rights
+                Copyright @{currentYear} - All rights
                 reserved{" "}
-                <a
+                <Link
+                  to="/"
                   target="_blank"
-                  href="https://envytheme.com/"
                   rel="noreferrer"
                 >
-                  EnvyTheme
-                </a>
+                  {title}
+                </Link>
               </p>
-            </div>
-
-            <div className="col-lg-6 col-md-6">
-              <ul>
-                <li>
-                  <Link to="/privacy-policy">Privacy Policy</Link>
-                </li>
-                <li>
-                  <Link to="/terms-of-service">Terms & Conditions</Link>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
