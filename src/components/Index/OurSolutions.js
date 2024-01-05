@@ -23,7 +23,7 @@ const OurSolutions = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-3 col-sm-6 mt-4">
               <div className="single-solutions-box">
                 <div className="icon">
                   <i className="flaticon-rocket"></i>
@@ -40,7 +40,7 @@ const OurSolutions = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-3 col-sm-6 mt-4">
               <div className="single-solutions-box">
                 <div className="icon">
                   <i className="flaticon-laptop"></i>
@@ -59,7 +59,7 @@ const OurSolutions = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-3 col-sm-6 mt-4">
               <div className="single-solutions-box">
                 <div className="icon">
                   <i className="flaticon-money"></i>
@@ -78,7 +78,7 @@ const OurSolutions = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-3 col-sm-6 mt-4">
               <div className="single-solutions-box">
                 <div className="icon">
                   <i className="flaticon-money"></i>

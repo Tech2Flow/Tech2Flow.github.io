@@ -24,7 +24,7 @@ const Navbar = () => {
 
   const classOne = collapsed
     ? "collapse navbar-collapse"
-    : "collapse navbar-collapse show"
+    : "collapse navbar-collapse show text-end"
   const classTwo = collapsed
     ? "navbar-toggler navbar-toggler-right collapsed"
     : "navbar-toggler navbar-toggler-right"
@@ -83,7 +83,7 @@ const Navbar = () => {
                   </li>
                 </ul>
 
-                <div className="others-option d-flex align-items-center">
+                <div className="others-option d-flex align-items-center justify-content-end mr-3">
                   <div className="option-item">
                     <Link
                       to="/contact"
