@@ -6,7 +6,7 @@ import { useSiteMetadata } from "../../hooks/use-site-metadata"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
-  const { title, description, siteEmail, address, country, phoneNumber, social } = useSiteMetadata()
+  const { title, description, siteEmail, address, country, phoneNumber } = useSiteMetadata()
 
   return (
     <footer className="footer-area bg-color">
@@ -20,39 +20,6 @@ const Footer = () => {
               <p>
                 {description}
               </p>
-
-              <ul className="social-link">
-                <li>
-                  <Link
-                    to={`https://www.facebook.com/` + social?.facebook}
-                    className="d-block"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="bx bxl-facebook"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to={`https://www.twitter.com/` + social?.twitter}
-                    className="d-block"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="bx bxl-twitter"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to={`https://www.linkedin.com/` + social?.linkedin}
-                    className="d-block"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="bx bxl-linkedin"></i>
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
 

@@ -14,7 +14,7 @@ module.exports = {
     author: `@envytheme`,
     siteUrl: `https://tech2flow.com`,
     siteEmail: `hello@tech2flow.com`,
-    address: `1137 Budapest, Szent István körút 22.`,
+    address: `2161 Csomád, Levente utca 14/a`,
     country: `Hungary`,
     phoneNumber: `(+36) 20 - 399 - 8867`,
     social: {
