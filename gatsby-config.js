@@ -26,8 +26,8 @@ module.exports = {
   plugins: [
     'gatsby-plugin-image',
     'gatsby-transformer-remark',
-		'gatsby-plugin-sharp',
-		'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -50,5 +50,7 @@ module.exports = {
         icon: `./src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    'gatsby-plugin-remove-generator',
+    `gatsby-plugin-sitemap`,
   ],
 }
